@@ -1,0 +1,55 @@
+.newsletter{
+    width: 100%;
+    margin: 50px 0;
+    height: 160px;
+    background-color: rgba(6, 6, 51, 0.936);
+    background-image: url("b14.png");
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.newsletter-des h3{
+    color: whitesmoke;
+    margin: 10px 0;
+    font-size: 19px;
+    font-weight: 600;
+}
+.newsletter-des p{
+    color: rgba(128, 128, 128, 0.842);
+    font-weight: 600;
+    font-size: 13px;
+}
+.newsletter-des span{
+    color:rgba(217, 133, 31, 0.874);
+}
+
+.newsletter-input{
+    width: 50%;
+    text-align: end;
+}
+.newsletter-input input{
+    width: 60%;
+    line-height: 45.5px;
+    padding: 0 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px;
+    border: none;
+    outline: none;
+}
+.newsletter-input button{
+    border-top-left-radius: 0;
+    border-bottom-left-radius:0;
+    margin-left: -6px;
+    background-color:rgb(0, 128, 119) ;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    transition: 0.5s;
+}
+
+.newsletter-input button:hover{
+    background-color: black;
+}

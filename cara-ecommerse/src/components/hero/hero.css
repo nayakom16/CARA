@@ -1,0 +1,51 @@
+.hero{
+    z-index: -1;
+    background-image: url("hero4.png");
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: top 25% left 0;
+    padding: 0 100px;
+    margin-top: 80px;
+}
+
+
+.hero h4{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hero h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 600;
+}
+.hero h1{
+    margin-bottom: 20px;
+    color: rgb(0, 128, 119);
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 600;
+}
+.hero p{
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.571);
+}
+.hero button{
+    width: 250px;
+    background-image: url("button.png");
+    line-height: 50px;
+    background-position: center;
+    background-size: cover;
+    font-size: 15px;
+    color:rgb(0, 128, 119);
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+}
