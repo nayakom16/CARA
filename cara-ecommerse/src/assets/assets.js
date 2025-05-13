@@ -435,15 +435,44 @@ export const home_page_banner = {
     home_banner_7
 }
 
-export const blog_page_banner = {
-    blog1,
-    blog2,
-    blog3,
-    blog4,
-    blog5,
-    blog6,
-    blog7
-}
+export const blog_page_banner = [
+    {
+        img : blog1,
+        num : "13/7"
+    },
+    {
+        img : blog2,
+        num : "11/5"
+
+    },
+    {
+        img : blog3,
+        num : "22/9"
+
+    },
+    {
+        img : blog4,
+        num : "21/3"
+
+    },
+    {
+        img : blog5,
+        num : "19/2"
+
+    },
+    {
+        img : blog6,
+        num : "17/8"
+
+    },
+    {
+        img : blog7,
+        num : "18/4"
+
+    }
+    
+    
+]
 
 
 

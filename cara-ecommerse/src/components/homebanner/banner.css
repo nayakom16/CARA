@@ -123,3 +123,38 @@
 .banner3-container h1{
     margin: 10px 0;
 }
+
+
+
+
+@media (max-width: 420px) {
+
+    .normal{
+        padding: 8px 17px;
+    }
+
+    .banner-1{
+        height: 210px;
+    }
+    .banner-1 h1{
+        font-size: 25px;
+        margin: 20px 0;
+    }
+    
+    .banner2{
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        padding: 0 40px;
+    }
+    
+    .banner-container{
+        width: 100%;
+        height: 250px;
+      
+    }
+
+    .banner3{
+        display: none;
+    }
+}

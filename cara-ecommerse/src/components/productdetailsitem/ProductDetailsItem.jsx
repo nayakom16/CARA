@@ -4,7 +4,7 @@ import { ProductContext } from '../../context/ProductContext'
 
 const ProductDetailsItem = ({ id, name, price, img, category, brand, description, seller, mfg, sale, sizes_available }) => {
 
-    const { product_list, productId, setProductId, product_details, size, setSize, quantity, setQuantity, cartItem, setCartItem ,addToCart , removerFromCart,addSize } = useContext(ProductContext)
+    const { size,  quantity, setQuantity, cartItem, addToCart ,addSize } = useContext(ProductContext)
 
     return (
         <div className='product-details-item'>

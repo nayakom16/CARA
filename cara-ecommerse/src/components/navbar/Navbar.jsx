@@ -23,8 +23,8 @@ const Navbar = () => {
                         <Link to='/blog' className={menu === "Blog" ? " navli active" : "navli"} onClick={() => setMenu("Blog")}>Blog</Link>
                         <Link to="/about" className={menu === "About" ? " navli active" : "navli"} onClick={() => setMenu("About")}>About</Link>
                         <Link to="/contact" className={menu === "Contact" ? " navli active" : "navli"} onClick={() => setMenu("Contact")}>Contact</Link>
-                        <div className="navbar-cart">
-                            <Link to='/cart' className='cart-icon cart-icon-special'><CiShoppingCart color='#fff' /></Link>
+                        <div className="navbar-cart cart-icon-special">
+                            <Link to='/cart' className='cart-icon '><CiShoppingCart color='#fff' /></Link>
                             {Object.keys(cartItem).length === 0 ? <></> : <div className="cart-dot"></div>}
                         </div>
                         <div className="navbar-cross" onClick={()=>setRight("-280px")}><RxCross2 /></div>

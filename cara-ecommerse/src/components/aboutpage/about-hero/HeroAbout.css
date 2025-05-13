@@ -32,3 +32,17 @@ marquee{
     margin: 20px 0;
 }
 
+
+@media (max-width: 420px){
+    .about-container{
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+
+    .about-container img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+   
+}

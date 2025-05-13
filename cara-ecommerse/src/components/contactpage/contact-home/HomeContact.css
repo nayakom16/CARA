@@ -72,3 +72,28 @@
     flex-direction: column;
    margin-left:20% ;
 }
+
+@media screen and (max-width: 420px){
+
+    .about-review{
+        padding: 20px;
+    }
+    .form{
+        width: 100%;
+    }
+    
+    .customer-review {
+        margin-left: 0;
+    }
+    
+    .about-location{
+        flex-direction: column;
+    }
+    .location-left {
+        width: 100%;
+    }
+    .location-right{
+        width: 100%;
+    }
+
+}

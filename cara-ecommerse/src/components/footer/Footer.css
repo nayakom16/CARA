@@ -66,5 +66,28 @@
     width: 100%;
     text-align: center;
     margin-top: 30px ;
-    margin-top: 10px ;
+}
+
+
+@media (max-width:420px) {
+
+    .footer{
+      padding: 40px;
+    }
+    .app-img {
+        
+        flex-direction: column;
+    }
+    .app-img img {
+        
+       width: 70%;
+    }
+    .sec-1 div{
+        width: 100%;
+    }
+
+    .copyright {
+        margin-top: 50px ;
+    }
+
 }

@@ -28,3 +28,17 @@
     color: rgba(0, 0, 0, 0.489);
     font-size: 12px;
 }
+
+
+@media screen and (max-width: 420px){
+    .about-location{
+        flex-direction: column;
+        padding: 20px ;
+    }
+
+    .location-right iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+}

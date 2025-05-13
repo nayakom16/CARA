@@ -17,3 +17,20 @@
     margin: 20px;
     color: rgba(0, 0, 0, 0.355);
 }
+
+
+@media (max-width:420px) {
+    .featured-products ,.feature-product-container{
+        padding: 20px;
+        justify-content: center;
+    }
+    .featured-products h1,.arrival h1{
+        font-size: 30px;
+        margin-bottom: 0px;
+        
+    }
+    .featured-products p,.arrival p{
+        font-size: 12px;
+    }
+
+}

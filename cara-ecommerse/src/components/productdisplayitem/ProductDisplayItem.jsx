@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 const ProductDisplayItem = ({id, name, price, img, category, brand} ) => {
-    const { product_list, productId, setProductId } = useContext(ProductContext)
+    const {  productId, setProductId } = useContext(ProductContext)
     const nevigate = useNavigate()
     return (
         <div className='product' onClick={()=>setProductId(id)}>

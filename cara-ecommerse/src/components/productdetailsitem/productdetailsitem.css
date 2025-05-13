@@ -118,3 +118,32 @@
 .activeee{
     cursor: not-allowed;
 }
+
+
+@media (max-width: 420px){
+    .product-details-item{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .product-details-item-left{
+        width: 100%;
+    }
+
+    .product-details-item-right h1{
+        font-size: 30px;
+    }
+    
+    .product-details-item-right p{
+        font-size: 14px;
+    }
+    
+    
+    
+    .product-size-avaliable .size{
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+    
+    
+}

@@ -17,3 +17,19 @@
     margin: 20px;
     color: rgba(0, 0, 0, 0.355);
 }
+
+@media (max-width:420px) {
+    .arrival-product-container{
+        padding: 20px;
+        justify-content: center;
+    }
+    .arrival-product h1{
+        font-size: 30px;
+        margin-bottom: 0px;
+        
+    }
+    .arrival-product p{
+        font-size: 12px;
+    }
+    
+}

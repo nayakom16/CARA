@@ -100,11 +100,15 @@
         /* background-color: whitesmoke; */
         backdrop-filter: blur(16px);
         transition: 0.5s;
-        
+        z-index: 111;
     }
 
     .cart-icon-special{
         display: none;
+    }
+
+    .cart-icon{
+        font-size: 15px;
     }
    
     .mobile {
@@ -117,8 +121,9 @@
         gap: 30px;
     }
 
-    #navbar navli {
-        margin:  20px 0;  
+    #navbar .navli {
+        color: rgb(0, 128, 119);
+        /* margin:  20px 0;   */
         list-style: none;
     }
     
@@ -126,8 +131,8 @@
     .navbar-cross{
         display: block;
         position: absolute;
-        top: 0;
-        right: 0;
+        top: 20px;
+        right: 20px;
     }
 
     .header{

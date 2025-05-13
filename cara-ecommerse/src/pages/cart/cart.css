@@ -30,3 +30,21 @@
     background-color: #e2e2e2;
     border: none;
 }
+
+@media (max-width:420px) {
+    .cart{
+        padding: 20px;
+    }
+
+    .cart-items-item img{
+        width: 30px;
+    }
+
+    .item-name{
+        font-size: 10px;
+    }
+
+    .cart-items-tittle{
+        grid-template-columns: 1fr 1fr 1.5fr 1fr 1.5fr 0.5fr
+    }
+}

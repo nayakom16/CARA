@@ -18,3 +18,19 @@
 .hero-about p{
     font-size: 10px;
 }
+
+
+@media (max-width: 420px){
+
+    .hero-about{
+        height: 30vh;
+    }
+    .hero-about h1{
+        font-size: 20px;
+    }
+    .hero-about p{
+        font-size: 10px;
+    }
+    
+    
+}

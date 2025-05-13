@@ -17,3 +17,19 @@ video{
     width: 100%;
     border-radius: 20px;
 }
+
+@media (max-width: 420px){
+    
+    .video{
+        width: 100%;
+        padding: 20px;
+    }
+    .about-container-video h1{
+        font-size: 40px;
+        margin: 20px;
+    }
+
+    .about-review{
+        flex-direction: column;
+    }
+}

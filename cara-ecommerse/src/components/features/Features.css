@@ -42,15 +42,11 @@
     }
 
     .feature-container{
-        /* flex-basis: 5%; */
         width: 150px;
         height: 160px;
         padding: 2px;
     }
     
-    /* .feature-container img{
-        width: 130px
-    } */
 
     .feature-container h6{
         margin-top: 10px;

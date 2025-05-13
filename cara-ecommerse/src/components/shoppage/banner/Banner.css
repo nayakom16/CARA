@@ -18,3 +18,17 @@
 .hero-shop p{
     font-size: 10px;
 }
+
+@media (max-width: 420px){
+
+    .hero-shop{
+        height: 30vh;
+    }
+    .hero-shop h1{
+        font-size: 20px;
+    }
+    .hero-shop p{
+        font-size: 10px;
+    }
+    
+}
