@@ -1,7 +1,7 @@
 import { createContext, useState } from "react";
 import { product_list } from "../assets/assets";
 import { product_details } from "../assets/assets";
-import { set } from "mongoose";
+
 
 export const ProductContext = createContext();
 
@@ -15,8 +15,10 @@ export const ProductContextProvider = ({children})=>{
     function addToCart(itemID){
         if(!cartItem[itemID]){
             setCartItem(prev=>({...prev ,[itemID]:quantity}))
+            alert("Item Added to Cart")
         }else{
             setCartItem(prev=>({...prev , [itemID]:quantity}))
+            alert("Item Added to Cart")
         }
     }
 

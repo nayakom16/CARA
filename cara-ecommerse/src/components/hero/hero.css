@@ -49,3 +49,20 @@
     border: none;
     background-color: transparent;
 }
+
+@media (max-width: 420px) {
+    
+
+    .hero {
+        background-position: top 25% left 75%;
+        padding:0 40px;
+    }
+    .hero h4{
+        font-size: 10px;
+    }
+    
+    .hero h2{
+        font-size: 30px;
+    }
+    
+}

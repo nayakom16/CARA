@@ -18,11 +18,12 @@
     justify-content: center;
     align-items: center;
     gap: 60px;
+    
 }
 
 
 
-.nav ul li {
+.nav ul .navli {
     text-decoration: none;
     color: black;
     font-size: 15px;
@@ -36,17 +37,17 @@
     font-weight: 700;
     color: #fff;
     background-color: rgb(0, 128, 119);
-    padding: 5px 7px;
-    border-radius: 100px;
+    padding: 8px 9px;
+    border-radius: 100%;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.342);
 }
 
 
-.nav ul li:hover,.nav ul li.active{
+.nav ul .navli:hover,.nav ul .navli.active{
     color: rgb(0, 128, 119);
 }
 
-.nav ul li::after{
+.nav ul .navli::after{
     content: "";
     width: 70%;
     background-color: rgb(0, 128, 119);
@@ -60,6 +61,76 @@
     transition: transform 0.2s ease-out;
 }
 
-.nav ul li:hover::after,.nav ul li.active::after{
+.nav ul .navli:hover::after,.nav ul .navli.active::after{
     transform: scaleX(.9);
+}
+
+
+.navbar-cart{
+    position: relative;
+}
+.cart-dot{
+    width:8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 100px;
+    position: absolute;
+    right: 7px;
+    top: 1px;
+}
+
+.mobile ,.navbar-cross{
+    display: none;
+}
+
+
+@media (max-width:420px){
+    #navbar{
+        
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        /* right: 0px; */
+        padding: 50px;
+        justify-content: start;
+        align-items: flex-start;
+        width: 40%;
+        height: 100vh;
+        /* background-color: whitesmoke; */
+        backdrop-filter: blur(16px);
+        transition: 0.5s;
+        
+    }
+
+    .cart-icon-special{
+        display: none;
+    }
+   
+    .mobile {
+      display: block;  
+    }
+
+    .mobile-icon{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    #navbar navli {
+        margin:  20px 0;  
+        list-style: none;
+    }
+    
+
+    .navbar-cross{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .header{
+        padding: 25px 40px;
+    }
 }

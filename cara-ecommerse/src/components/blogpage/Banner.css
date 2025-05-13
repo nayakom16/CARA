@@ -1,20 +1,20 @@
-.hero-shop{
+.hero-blog{
     width: 100%;
     height: 40vh;
     text-align: center;
     align-content: center;
-    background-image: url("b1.jpg");
+    background-image: url("b19.jpg");
     background-position: center;
     background-size: cover;
     color: #fff;
     margin-top: 90px;
 }
 
-.hero-shop h1{
+.hero-blog h1{
     font-size: 40px;
     margin: 10px 0;
 }
 
-.hero-shop p{
+.hero-blog p{
     font-size: 10px;
 }

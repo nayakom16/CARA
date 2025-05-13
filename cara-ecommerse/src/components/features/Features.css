@@ -33,3 +33,28 @@
     background-color: #d1e8f2;
     text-align: center;
 }
+
+@media (max-width:420px) {
+    .features  {
+        justify-content: center;
+        gap: 30px;
+        padding:  20px;
+    }
+
+    .feature-container{
+        /* flex-basis: 5%; */
+        width: 150px;
+        height: 160px;
+        padding: 2px;
+    }
+    
+    /* .feature-container img{
+        width: 130px
+    } */
+
+    .feature-container h6{
+        margin-top: 10px;
+        padding: 5px 4px;
+    }
+
+}

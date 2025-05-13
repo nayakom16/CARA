@@ -27,18 +27,19 @@ const ProductDetailsItem = ({ id, name, price, img, category, brand, description
                         {sizes_available.map((size) => {
                             return <p onClick={()=>{addSize(id , size)}} className='size'>{size}</p>
                         })}
+                        <p>{size[id]}</p>
                     </div>
                     {quantity > 0 ?
-                        <div>
-                            <button onClick={()=>{setQuantity(quantity+1)}}>+</button>
+                        <div className='more-then-one-qunt'>
+                            <button className='add-rem-btn' onClick={()=>{setQuantity(quantity+1)}}>+</button>
                             <p>{quantity}</p>
-                            <button onClick={()=>{setQuantity(quantity-1)}}>-</button>
+                            <button className='add-rem-btn' onClick={()=>{setQuantity(quantity-1)}}>-</button>
                         </div>
                         :
-                        <div><button onClick={()=>{setQuantity(quantity+1)}}>+</button></div>
+                        <div><button className='add-rem-btn' onClick={()=>{setQuantity(quantity+1)}}>+</button></div>
                     }
                 </div>
-                <button className='addtocart' onClick={()=>{addToCart(id)}}>ADD TO CART</button>
+                <button className={quantity > 0 && size[id] ? "addtocart" : "addtocart activeee"}   onClick={quantity > 0 && size[id] ?  ()=>{addToCart(id)} : ()=>{} }>ADD TO CART</button>
                 
                 {console.log(cartItem)}
                 {console.log(size)}

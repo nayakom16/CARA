@@ -1,0 +1,30 @@
+
+.about-location{
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.location-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.address div{
+    display: flex;
+    margin: 25px 0;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.address div i{
+    color: rgba(0, 0, 0, 0.895);
+    font-size: 15px;
+}
+
+.address div p, .people-description p{
+    color: rgba(0, 0, 0, 0.489);
+    font-size: 12px;
+}
