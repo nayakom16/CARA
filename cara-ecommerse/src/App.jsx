@@ -10,6 +10,11 @@ import Cart from './pages/cart/Cart'
 import Blog from './pages/blog/Blog'
 import About from './pages/about/About'
 import Contact from './pages/contact/Contact'
+// import Contact from './pages/contact/Contact'
+// import Contact from './pages/contact/Contact'
+// import Contact from './pages/contact/Contact'
+// import Contact from './pages/contact/Contact'
+// import Contact from './pages/contact/Contact'
 
 function App() {
   
