@@ -1,14 +1,10 @@
 import logo from "./logo.png";
 
-import button from "./button.png";
 import pay from "./pay.png";
 import play from "./play.jpg";
 import appstore from "./app.jpg";
-import shop_banner from "./b1.jpg";
-import about_banner from "./banner.png";
 import about_home from "./a1.png";
 import about_video from "./1.mp4";
-import blog_banner from "./b19.jpg";
 import people1 from "./1.png";
 import people2 from "./2.png";
 import people3 from "./3.png";
@@ -17,13 +13,7 @@ import people3 from "./3.png";
 
 
 
-import home_banner_1 from "./b2.jpg";
-import home_banner_2 from "./b17.jpg";
-import home_banner_3 from "./b18.jpg";
-import home_banner_4 from "./b7.jpg";
-import home_banner_5 from "./b4.jpg";
-import home_banner_6 from "./b16.jpg";
-import home_banner_7 from "./b14.png";
+
 
 
 
@@ -414,26 +404,15 @@ export const assets = {
     pay,
     play,
     appstore,
-    about_banner,
     about_home,
     about_video,
-    shop_banner,
-    blog_banner,
     people1,
     people2,
     people3
 }
 
 
-export const home_page_banner = {
-    home_banner_1,
-    home_banner_2,
-    home_banner_3,
-    home_banner_4,
-    home_banner_5,
-    home_banner_6,
-    home_banner_7
-}
+
 
 export const blog_page_banner = [
     {
